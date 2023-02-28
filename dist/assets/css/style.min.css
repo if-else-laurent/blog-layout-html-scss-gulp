@@ -467,85 +467,92 @@ body {
   left: 0;
   z-index: 1000;
   background-color: #202020;
+  box-shadow: 5px 0px 15px 0px rgba(5, 5, 5, 0.1019607843);
 }
-.sidebar__container {
-  padding: 0 20px;
-}
-.sidebar__bg {
-  min-height: inherit;
-  width: 100%;
+.sidebar__header {
+  position: relative;
   min-height: 180px;
 }
-.sidebar__name, .sidebar__role {
+.sidebar__bg {
+  position: absolute;
+  min-height: inherit;
+  object-fit: cover;
+  width: 100%;
+}
+.sidebar__content {
+  padding: 0 2rem;
+}
+.sidebar__divider {
+  border-bottom: 1px solid #1c1c1c;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+.sidebar__bottom {
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile__name, .profile__role {
   text-align: center;
 }
-.sidebar__name {
+.profile__name {
   font-size: 1.8rem;
-  margin-bottom: 3px;
+  margin-bottom: 0.3rem;
 }
-.sidebar__role {
+.profile__role {
   color: #dedede;
-  margin-bottom: 17px;
+  margin-bottom: 1.7rem;
 }
-.sidebar__description {
+.profile__description {
   text-align: center;
   color: #fff;
   font-size: 1.2rem;
 }
-.sidebar__row {
+
+.social-links-row {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 1.5rem;
 }
-.sidebar__btns-row {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+.social-links-row__item {
+  height: 2.5rem;
+  width: 2.5rem;
+  min-width: 2.5rem;
 }
-.sidebar__social-link {
-  height: 25px;
-  width: 25px;
-  min-width: 25px;
-}
-.sidebar__social-link:hover {
+.social-links-row__item:hover {
   scale: 1.2;
   transition: all 0.2s ease;
 }
 
-.avatar-block {
+.avatar {
   position: relative;
-  margin-bottom: 80px;
+  margin-bottom: 8rem;
   display: flex;
   justify-content: center;
 }
-.avatar-block__img {
-  top: -50px;
+.avatar__img {
+  top: -5rem;
   position: absolute;
   z-index: 100;
-  height: 100px;
-  width: 100px;
-  min-width: 100px;
+  height: 10rem;
+  width: 10rem;
+  min-width: 10rem;
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid #fff;
   box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.2509803922);
 }
 
-.divider {
-  width: 100%;
-  background-color: #1c1c1c;
-  height: 1px;
-  margin: 30px 0;
-}
-
 .btn {
   width: 100%;
-  max-width: 120px;
+  max-width: 12rem;
   font-size: 1.2rem;
   font-weight: 500;
-  padding: 13px 20px;
-  border-radius: 25px;
+  padding: 1.3rem 2rem;
+  border-radius: 2.5rem;
   color: #fff;
   outline: none;
   border: none;
