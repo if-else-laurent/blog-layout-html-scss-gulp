@@ -1,3 +1,9 @@
 .page {
   overflow: hidden;
 }
+
+.home-page {
+  &__stories {
+    margin-bottom: 3rem;
+  }
+}
