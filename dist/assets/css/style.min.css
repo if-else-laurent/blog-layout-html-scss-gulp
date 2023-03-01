@@ -550,17 +550,6 @@ body {
   background-color: #2529ab;
 }
 
-.search__field {
-  min-width: 16rem;
-  width: 21rem;
-  height: 4rem;
-  padding: 0 2rem;
-  background-color: #202020;
-  color: #fff;
-  font-size: 1.2rem;
-  box-shadow: -7px 1px 10px 0px rgba(0, 0, 0, 0.3019607843);
-}
-
 .sidebar {
   width: 300px;
   height: 100vh;
@@ -648,13 +637,36 @@ body {
   box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.2509803922);
 }
 
+.main {
+  padding-top: 10rem;
+  padding-left: 300px;
+}
+
+.container {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.search__field {
+  min-width: 16rem;
+  width: 21rem;
+  height: 4rem;
+  padding: 0 2rem;
+  background-color: #202020;
+  color: #fff;
+  font-size: 1.2rem;
+  box-shadow: -7px 1px 10px 0px rgba(0, 0, 0, 0.3019607843);
+}
+
 .btn {
   width: 100%;
   max-width: 12rem;
   font-size: 1.2rem;
   font-weight: 500;
-  padding: 1.3rem 2rem;
-  border-radius: 2.5rem;
+  padding: 0.8rem 1.4rem;
+  border-radius: 0.5rem;
   color: #fff;
   outline: none;
   border: none;
@@ -673,15 +685,9 @@ body {
 .btn__secondary:hover {
   background-color: #cb2d22;
 }
-
-.main {
-  padding-top: 10rem;
-  padding-left: 300px;
+.btn__rounded {
+  border-radius: 2.5rem;
 }
-
-.container {
-  max-width: 70rem;
-  margin: 0 auto;
-  padding-left: 5rem;
-  padding-right: 5rem;
+.btn__large {
+  padding: 1.3rem 2rem;
 }
