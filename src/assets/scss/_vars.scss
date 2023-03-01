@@ -4,8 +4,8 @@ $white: #fff;
 
 $btn-primary: #3137c9;
 $btn-secondary: #ed3024;
-$btn-primary-dark: #2529ab;
-$btn-secondary-dark: #cb2d22;
+$btn-primary-dark: darken($btn-primary, 10%);
+$btn-secondary-dark: darken($btn-secondary, 10%);
 
 $z-index-sidebar: 1000;
 $z-index-header: 1000;

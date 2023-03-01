@@ -53,6 +53,10 @@
     color: $white;
     z-index: 1;
 
+    &:focus {
+      outline: $btn-primary-dark 2px solid;
+    }
+
     &--has-sub-nav {
       position: relative;
       padding-right: 3.5rem;

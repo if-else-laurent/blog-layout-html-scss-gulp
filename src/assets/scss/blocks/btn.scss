@@ -11,11 +11,23 @@
   box-shadow: 0px 7px 17px -10px rgba(242, 63, 63, 0.2);
   transition: background-color 0.2s ease;
 
+  &__rounded {
+    border-radius: 2.5rem;
+  }
+
+  &__large {
+    padding: 1.3rem 2rem;
+  }
+
   &__primary {
     background-color: $btn-primary;
 
     &:hover {
       background-color: $btn-primary-dark;
+    }
+
+    &:focus {
+      outline: $btn-primary-dark 2px solid;
     }
   }
 
@@ -25,13 +37,9 @@
     &:hover {
       background-color: $btn-secondary-dark;
     }
-  }
 
-  &__rounded {
-    border-radius: 2.5rem;
-  }
-
-  &__large {
-    padding: 1.3rem 2rem;
+    &:focus {
+      outline: $btn-secondary-dark 2px solid;
+    }
   }
 }
