@@ -114,18 +114,18 @@
   transition: background-color 0.2s ease;
 
   &__primary {
-    background-color: #3137c9;
+    background-color: $btn-primary;
 
     &:hover {
-      background-color: #2529ab;
+      background-color: $btn-primary-dark;
     }
   }
 
   &__secondary {
-    background-color: #ed3024;
+    background-color: $btn-secondary;
 
     &:hover {
-      background-color: #cb2d22;
+      background-color: $btn-secondary-dark;
     }
   }
 }

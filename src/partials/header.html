@@ -1,1 +1,47 @@
-<header class="header">header</header>
+<header class="header">
+  <div class="header__container">
+    <nav>
+      <ul class="header__list">
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#"> Главная </a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link header__nav-link--has-sub-nav" href="#">
+            Статьи
+          </a>
+          <ul class="sub-nav">
+            <li class="sub-nav__item">
+              <a class="sub-nav__link" href="#"> Создание сайтов </a>
+            </li>
+            <li class="sub-nav__item">
+              <a class="sub-nav__link" href="#"> Интернет-маркетинг </a>
+            </li>
+            <li class="sub-nav__item">
+              <a class="sub-nav__link" href="#"> Продвижение видео </a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#"> Обо мне </a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#"> Реклама </a>
+        </li>
+      </ul>
+    </nav>
+    <ul class="header__list">
+      <li class="header__nav-item">
+        <a class="header__nav-link" href="#"> Профиль </a>
+      </li>
+      <li>
+        <form class="search" action="/" method="post">
+          <input
+            class="search__field"
+            type="search"
+            placeholder="Поиск по блогу"
+          />
+        </form>
+      </li>
+    </ul>
+  </div>
+</header>
